@@ -9,19 +9,29 @@
 <body>
     <header>
         <nav>
-            <ul id="navbar">
-                <li>Portfolio</li>
-                <li><a href="https://github.com/brandonnorsworthy" target="_Blank">Github</a></li>
-                <li>Contact</li>
+            <ul>
+                <li><a href="#portfolio"><strong>Portfolio</strong></a></li>
+                <li><a href="https://github.com/brandonnorsworthy" target="_Blank"><strong>Github</strong></a></li>
+                <li><a href="#contact"><strong>Contact</strong></a></li>
             </ul>
         </nav>
     </header>
-
     <section>
-
+        <div id="hero">
+            <img src="https://via.placeholder.com/300.png" alt="placeholder hero image">
+        </div>
+        <div id="contact">
+            <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value=""><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value=""><br>
+                <input type="submit" value="Send">
+            </form>
+        </div>
     </section>
     <footer>
-
+        <div>Created by Brandon Norsworthy</div>
     </footer>
 </body>
 </html>

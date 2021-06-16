@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 10%;
+    background-color: aqua;
+}
+
+section {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #FDF8F5;
+}
+
+li {
+    font-size: 25;
+    display: inline;
+    padding: 25px;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
